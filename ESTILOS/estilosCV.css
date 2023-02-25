@@ -9,19 +9,29 @@ body {
 .dataPer{
 padding: 0px;
 color: azure;
-};
+}
 
 .dataPer h1{
     size: 60px;
-};
+}
 
 .fotoPer img{
-width: 1rem;
+width: 250px;
 border-radius: 2rem;
 box-sizing: border-box;
+border: solid 2px #aaa;
+padding: 5px;
+}
 
-};
+.boton-container h3{
+  border: 1px solid black;
+  width: fit-content;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: 0.3s ease-in-out;
+}
 
-.box {
-    border: 5px solid darkblue;
-  }
+.boton-container :hover {
+  background-color: white;
+}

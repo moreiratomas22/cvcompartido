@@ -1,0 +1,27 @@
+{
+    "greeting": "Hola 👋, bienvenido al Curriculum Vitae de",
+    "name": "Tomas Pennisi Moreira",
+    "bio": "Soy de mar del plata, argentina; Tengo 27 años y estoy metido en el mundo de la tecnología hace aproximadamente dos años.",
+    "projects": [
+        {
+            "name": "Fotografía G2",
+            "link": "https://github.com/joaquingutierrez/fotografia-g2",
+            "image": "./img/fotografia-g2.png"
+        },
+        {
+            "name": "Cine",
+            "link": "https://github.com/joaquingutierrez/cine",
+            "image": "./img/cine.png"
+        },
+        {
+            "name": "Protoripo 3D",
+            "link": "https://github.com/joaquingutierrez/prototipo-3d",
+            "image": "./img/prototipo-3d.png"
+        },
+        {
+            "name": "Calculator",
+            "link": "https://github.com/joaquingutierrez/calculator",
+            "image": "./img/calculator.png"
+        }
+    ]
+}
