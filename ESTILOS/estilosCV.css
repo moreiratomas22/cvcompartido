@@ -9,11 +9,9 @@ body {
 .dataPer{
 padding: 0px;
 color: azure;
+width: 35%;
 }
 
-.dataPer h1{
-    size: 60px;
-}
 
 .fotoPer img{
 width: 250px;
@@ -34,4 +32,10 @@ padding: 5px;
 
 .boton-container :hover {
   background-color: white;
+}
+
+#nomina {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

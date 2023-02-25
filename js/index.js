@@ -18,5 +18,18 @@ const pedirInfo = () => {
 };
 
 
+const changeButton = () => {
+    pedirInfo()
+    botonES[0].innerHTML= "<h3 id='ingles'>EN</h3>";
+    const botonEN = document.getElementById("ingles");
+console.log(botonEN)
+    botonEN.addEventListener("click", () => {
+        location.reload();
+    })
+}
 
-botonES.addEventListener("click", pedirInfo)
+const reloadButton = () => {
+    
+}
+
+botonES[0].addEventListener("click", changeButton)
