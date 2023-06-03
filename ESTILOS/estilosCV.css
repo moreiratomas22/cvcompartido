@@ -4,9 +4,11 @@
 body {
   font-family: 'Roboto Mono', monospace;
   /* background-image: url(/imagenes/css-critico.jpg); */
-  background-color: darkslategray;
+  background-color: #0c2d6b;
   background-size: 100%;
   background-repeat: no-repeat;
+
+  
 }
 
 /* PREGUNTAR JOACO DESDE AQUI */
