@@ -4,7 +4,7 @@
 body {
   font-family: 'Roboto Mono', monospace;
   /* background-image: url(/imagenes/css-critico.jpg); */
-  background-color: #0c2d6b;
+  background-color: #001f3f;
   background-size: 100%;
   background-repeat: no-repeat;
 
@@ -181,4 +181,23 @@ body {
 }
 .card img:hover {
   transform: scale(1.2);
+}
+
+.botonVisita {
+border: 1px solid #2e518b;
+padding: 10px; 
+background-color: #2e518b;
+color: #ffffff; 
+text-decoration: none; 
+text-transform: uppercase;
+font-family: 'Helvetica', sans-serif; 
+border-radius: 15px; 
+} 
+
+.card h3{
+  color:#fff
+}
+
+.title {
+  color: #fff;
 }
