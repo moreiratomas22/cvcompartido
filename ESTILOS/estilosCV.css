@@ -292,8 +292,6 @@ button.visitar {
   color: rgb(4, 4, 38);
 }
 
-
-
 /* HASTA ACA BOTON */
 
 .card h3 {
@@ -313,14 +311,16 @@ button.visitar {
 
 /* TECNOLOGIAS UTILIZADAS PEQUEÑAS CARDS */
 
-/* .flex {
+.tech{
   display: flex;
-}
-
-.items-center {
   align-items: center;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-} */
+.tech img {
+  height: 20px;
+}
+
+.techContainer {
+  display: flex;
+  justify-content: center;
+}
