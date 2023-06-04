@@ -20,9 +20,9 @@ body {
   font-size: 25px;
 }
 
-      /* LINEA DIVISORA CON ICONOS */
+/* LINEA DIVISORA CON ICONOS */
 
-  /* VIEJA */
+/* VIEJA */
 
 /* #separation {
   width: 75%;
@@ -32,7 +32,7 @@ body {
   border-radius: 0 0 50% 50%;
 } */
 
-  /* NUEVA */
+/* NUEVA */
 
 .section {
   padding: 20px;
@@ -85,7 +85,7 @@ body {
   border-radius: 50%;
 }
 
-      /* FIN LINEA DIVISORA CON ICONOS*/
+/* FIN LINEA DIVISORA CON ICONOS*/
 /* NAVBAR CON SUBRAYADO */
 .nav a {
   text-decoration: none;
@@ -113,7 +113,7 @@ body {
 
 /* NAVBAR CON SUBRAYADO / FIN */
 
-    /* PERSONA NOMINA */
+/* PERSONA NOMINA */
 .dataPer {
   padding: 0px;
   color: azure;
@@ -191,7 +191,7 @@ body {
   align-items: center;
 }
 
-  /* FIN NOMINA PERSONA */
+/* FIN NOMINA PERSONA */
 
 
 #contact {
@@ -216,7 +216,7 @@ body {
   transform: scale(1.2);
 }
 
-  /* TARJETAS PRESENTACION PROYECTOS */
+/* TARJETAS PRESENTACION PROYECTOS */
 
 .cardContainer {
   display: flex;
@@ -233,8 +233,8 @@ body {
   position: relative;
   text-align: center;
   -webkit-box-shadow: #000;
-  -moz-box-shadow: 0px 0px 45px 15px rgba(0,128,0,0.77);
-  box-shadow: 0px 0px 45px 15px rgba(26, 35, 126 );
+  -moz-box-shadow: 0px 0px 45px 15px rgba(0, 128, 0, 0.77);
+  box-shadow: 0px 0px 45px 15px rgba(26, 35, 126);
 }
 
 .card img {
@@ -243,11 +243,12 @@ body {
   transform: translateY(-10%);
   transition: 0.3s ease-in-out;
 }
+
 .card img:hover {
   transform: scale(1.2);
 }
 
-.botonVisita {
+/* .botonVisita {
 border: 1px solid #2e518b;
 padding: 10px; 
 background-color: #2e518b;
@@ -256,13 +257,50 @@ text-decoration: none;
 text-transform: uppercase;
 font-family: 'Helvetica', sans-serif; 
 border-radius: 15px; 
-} 
+}  */
 
-.card h3{
-  color:#fff
+/* BOTON PARA VISITAR PRUEBA GRADIENTE */
+
+button.visitar {
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 1s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 5px;
 }
 
-  /* FIN DE TARJETAS + BOTON-VISITA */
+.visitar:active {
+  scale: 0.92;
+}
+
+.visitar:hover {
+  background: rgb(2, 29, 78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
+}
+
+
+
+/* HASTA ACA BOTON */
+
+.card h3 {
+  color: #fff
+}
+
+/* FIN DE TARJETAS + BOTON-VISITA */
 
 .title {
   color: #fff;
@@ -272,3 +310,17 @@ border-radius: 15px;
   background: linear-gradient(to bottom right, #001122, #004488);
   height: 100vh;
 }
+
+/* TECNOLOGIAS UTILIZADAS PEQUEÑAS CARDS */
+
+/* .flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+} */
