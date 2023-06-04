@@ -314,6 +314,7 @@ button.visitar {
 .tech{
   display: flex;
   align-items: center;
+  gap: 3px;
 }
 
 .tech img {
@@ -323,4 +324,11 @@ button.visitar {
 .techContainer {
   display: flex;
   justify-content: center;
+  gap: 10px;
+}
+
+.tech p {
+text-align: center;
+color: #BABABA
+
 }
