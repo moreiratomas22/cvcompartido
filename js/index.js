@@ -5,9 +5,9 @@
 // const pedirInfo = () => {
 //   fetch("./json/data.json")
 //     .then((data) => {
-     
+
 //       return data.json();
-       
+
 //     })
 //     .then((data) => {
 //       info = data;
@@ -16,7 +16,6 @@
 //     });
 
 // };
-
 
 // const changeButton = () => {
 //     pedirInfo()
@@ -29,7 +28,27 @@
 // }
 
 // const reloadButton = () => {
-    
+
 // }
 
 // botonES[0].addEventListener("click", changeButton)
+
+// INTERRUPTOR DARK-LIGHT MODE
+
+const interruptor = document.querySelector(".interruptor");
+const body = document.body;
+let modo_nocturno = false;
+
+interruptor.addEventListener("change", (event) => {
+// event.preventDefault();
+console.log("hola")
+  if (!modo_nocturno) {
+    body.classList.add("modo-nocturno");
+    modo_nocturno = true;
+console.log("holis")
+  } else {
+    body.classList.remove("modo-nocturno");
+    modo_nocturno = false;
+console.log("holus")
+  }
+});
