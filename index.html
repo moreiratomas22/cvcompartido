@@ -14,23 +14,24 @@
 
     <header>
         <nav class="nav">
-            <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" class="colorTron">Home</a>
+            <a href="#projects" class="colorTron">Projects</a>
+            <a href="#contact" class="colorTron">Contact</a>
 
-            <div class="interruptor">
-                <label class="switch-label">
-                    <input type="checkbox" class="checkbox" />
-                    <span class="slider"></span>
-                </label>
+            <div class="moveInterruptor">
+                <div class="interruptor">
+                    <label class="switch-label">
+                        <input type="checkbox" class="checkbox" />
+                        <span class="slider"></span>
+                    </label>
+                </div>
             </div>
-
         </nav>
     </header>
 
     <br>
     <section id="nomina">
-        <div class="dataPer">
+        <div class="dataPer colorTron">
             <h5 id="greeting">Hola 👋, soy</h5>
             <h2 id="propietario">Tomas Pennisi Moreira</h2>
             <h5>FullStack Developer en proceso</h5>
@@ -58,7 +59,7 @@
         <div class="cardContainer">
 
             <div class="card">
-                <img src="/imagenes/proj/comacoProy.jpg" alt="Web de construccion modular">
+                <img class="cardImg" src="/imagenes/proj/comacoProy.jpg" alt="Web de construccion modular">
                 <h3>COMACO - Obras Modulares</h3>
                 <!-- <p>Tecnologias: HTML, CSS, JavaScript</p> -->
                 <div class="techContainer">
@@ -77,7 +78,7 @@
             </div>
 
             <div class="card">
-                <img src="/imagenes/proj/casaRosaProy.jpg" alt="Web de construccion modular">
+                <img class="cardImg" src="/imagenes/proj/casaRosaProy.jpg" alt="Web de construccion modular">
                 <h3>CASA ROSA - Destileria Artesanal</h3>
                 <!-- <p>Tecnologias: HTML, CSS, JavaScript</p> -->
                 <div class="techContainer">
@@ -96,9 +97,22 @@
             </div>
 
             <div class="card">
-                <img src="/imagenes/proj/escuelaSDP.jpg" alt="Web de construccion modular">
+                <img class="cardImg" src="/imagenes/proj/escuelaSDP.jpg" alt="Web de construccion modular">
                 <h3>Escuena de danzas SDP</h3>
-                <p>Tecnologias: SCSS, HTML, CSS, JavaScript</p>
+                <div class="techContainer">
+                    <div class="tech"><img src="/imagenes/iconos/sassIco.png" alt="JavaScript">
+                        <p>SASS</p>
+                    </div>
+                    <div class="tech"><img src="/imagenes/iconos/HTMLico.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="tech"><img src="/imagenes/iconos/CSSico.png" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="tech"><img src="/imagenes/iconos/javaScriptico.png" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
                 <a href="https://academiadebailesdp.netlify.app/" target="_blank"><button
                         class="visitar">VISITAR</button></a>
             </div>
@@ -116,17 +130,17 @@
         <h2 class="title">Contacto</h2>
         <div class="contactContainer">
             <a href="https://github.com/moreiratomas22" target="_blank">
-                <div class="logoContactContainer">
+                <div class="logoContactContainer boxShadow">
                     <img src="./imagenes/gitHub.png" alt="GitHub">
                 </div>
             </a>
             <a href="mailto:moreiratomas22@gmail.com" target="_blank">
-                <div class="logoContactContainer">
+                <div class="logoContactContainer boxShadow">
                     <img src="./imagenes/envelope.png" alt="Mail">
                 </div>
             </a>
             <a href="https://www.linkedin.com/in/pennisimoreiratomas/" target="_blank">
-                <div class="logoContactContainer">
+                <div class="logoContactContainer boxShadow">
                     <img src="./imagenes/linkLogo.png" alt="LinkedIn">
                 </div>
             </a>

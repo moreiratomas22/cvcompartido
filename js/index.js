@@ -41,14 +41,14 @@ let modo_nocturno = false;
 
 interruptor.addEventListener("change", (event) => {
 // event.preventDefault();
-console.log("hola")
+// console.log("hola")
   if (!modo_nocturno) {
     body.classList.add("modo-nocturno");
     modo_nocturno = true;
-console.log("holis")
+// console.log("holis")
   } else {
     body.classList.remove("modo-nocturno");
     modo_nocturno = false;
-console.log("holus")
+// console.log("holus")
   }
 });
