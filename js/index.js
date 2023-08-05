@@ -37,18 +37,18 @@
 
 const interruptor = document.querySelector(".interruptor");
 const body = document.body;
-let modo_nocturno = false;
+let modo_luminoso = false;
 
 interruptor.addEventListener("change", (event) => {
 // event.preventDefault();
 // console.log("hola")
-  if (!modo_nocturno) {
-    body.classList.add("modo-nocturno");
-    modo_nocturno = true;
+  if (!modo_luminoso) {
+    body.classList.add("modo-light");
+    modo_luminoso = true;
 // console.log("holis")
   } else {
-    body.classList.remove("modo-nocturno");
-    modo_nocturno = false;
+    body.classList.remove("modo-light");
+    modo_luminoso = false;
 // console.log("holus")
   }
 });

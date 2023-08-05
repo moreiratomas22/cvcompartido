@@ -10,9 +10,24 @@ body {
   transition: 0.3s ;
 }
 
-.modo-nocturno {
+.modo-light {
   background: #193f4a;
-  color: #fff !important;
+}
+
+.modo-light .fa-phone-alt {
+  color: #000
+}
+
+.modo-light .fa-laptop {
+  color:#000
+}
+
+.boton-container {
+color: #fff;
+}
+
+.modo-light .boton-container {
+  color: #000;
 }
 
 
@@ -57,7 +72,7 @@ body {
   position: absolute;
   top: 50%;
   height: 1px;
-  background-color: black;
+  background-color: white;
 }
 
 .separation::before {
@@ -79,6 +94,7 @@ body {
   background-color: linear-gradient(to bottom right, #001122, #004488);
   padding: 5px;
   border-radius: 50%;
+  color:#fff;
 }
 
 .fa-phone-alt {
@@ -88,6 +104,7 @@ body {
   background-color: linear-gradient(to bottom right, #001122, #004488);
   padding: 5px;
   border-radius: 50%;
+  color: white;
 }
 
 /* FIN LINEA DIVISORA CON ICONOS*/
